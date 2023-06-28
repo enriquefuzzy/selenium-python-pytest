@@ -1,6 +1,6 @@
 # selenium-python-pytest
 
-Basic Selenium WebDriver automation framework using Cucumber
+Basic Selenium WebDriver automation framework using Cucumber.
 
 Requirements:
 - Python3
@@ -14,4 +14,4 @@ Packages:
 
 Execute tests in terminal with `pytest`
 
-Add `--html=pytest_report.html` to generate a report of the executed tests
+Add `--html=pytest_report.html` to generate a report of the executed tests.
