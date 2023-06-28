@@ -24,8 +24,8 @@ def given_user_on_google(driver):
     # Navigate to Google
     driver.get("https://www.google.com")
 
-@when(parse("the user searches for {search_term}"))
-@when("the user searches for {search_term}")
+@when(parse('the user searches for "{search_term}"'))
+@when('the user searches for "{search_term}"')
 def when_user_searches(driver, search_term):
     # Locate the search input field and enter the search term
     search_input = driver.find_element(By.CSS_SELECTOR, "[name=q]")
