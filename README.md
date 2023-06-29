@@ -15,3 +15,5 @@ Packages:
 Execute tests in terminal with `pytest`
 
 Add `--html=pytest_report.html` to generate a report of the executed tests.
+
+See demo in `pytest_demo.mov`
