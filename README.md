@@ -11,8 +11,11 @@ Packages:
 - pytest
 - pytest-bdd
 - pytest-html
+- requests
 
 Execute tests in terminal with `pytest`
+
+Execute API tests using Requests library with `pytest -m api`
 
 Add `--html=pytest_report.html` to generate a report of the executed tests.
 
